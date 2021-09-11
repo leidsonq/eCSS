@@ -2,6 +2,7 @@
     max-width: 70vw;
     flex-wrap: wrap;
     margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .flexivel{
@@ -11,6 +12,7 @@
 h1{
     text-align: center;
     font-size: 30px;
+    color: blue;
 }
 
 #p-cargo{
@@ -21,8 +23,9 @@ h1{
     width: 60vw;
     height:max-content;
     border:3px solid gray;
+    position: relative;
     margin-bottom: 40px;
-    color: blue;
+    
 }
 
 .div-left{
@@ -44,6 +47,13 @@ h1{
 }
 
 #div-r{
+    width: 18vw;
+    height:max-content;
+    margin-bottom: 20px;
+    border-bottom: 3px solid gray;
+}
+
+#div-r-referal{
     width: 18vw;
     height:max-content;
     margin-bottom: 20px;
@@ -77,6 +87,15 @@ h3{
 
 h4{
     margin: 0;   
+}
+
+legend{
+    position: absolute; 
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    background: white;
+    padding: 0 5px;   
 }
 
 ul{
