@@ -1,25 +1,49 @@
-#container{
+
+/*estilos gerais da página
+-------------------------*/
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+}
+
+ul {
+    margin: 0;   
+}
+
+p {
+    width: 40vw; 
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    color: blue;
+}
+
+h3 {
+    margin: 0;   
+}
+
+h4 {
+    margin: 0;   
+}
+
+.flexible {
+    display: flex;
+}
+
+/*estilos do header
+-------------------*/
+
+#container {
     max-width: 70vw;
     flex-wrap: wrap;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
 }
 
-.flexivel{
-    display: flex;
-}
-
-h1{
-    text-align: center;
-    font-size: 30px;
-    color: blue;
-}
-
-#p-cargo{
-    text-align: center;
-}
-
-#div-principal{
+#div-main {
     width: 60vw;
     height:max-content;
     border:3px solid gray;
@@ -28,76 +52,62 @@ h1{
     
 }
 
-.div-left{
-    width: 40vw;
-    height:max-content;
-    margin-bottom: 20px;
+legend {
+    position: absolute; 
+    left: 350px;
+    top: 70px;
+    background: white;
+    padding: 0 5px;
+    width: 85px;
+    height: 20px;   
 }
 
-#div-l{
-    width: 40vw;
+/*estilos do componentes a direita da página
+--------------------------------------------*/
+
+.container-right {
+    max-width: 20vw;
+    flex-wrap: wrap;
+}
+
+.div-right {
+    width: 18vw;
+    height:max-content;
+}
+
+#div-r {
+    width: 18vw;
     height:max-content;
     margin-bottom: 20px;
     border-bottom: 3px solid gray;
 }
 
-.div-right{
-    width: 18vw;
-    height:max-content;
-}
-
-#div-r{
-    width: 18vw;
-    height:max-content;
-    margin-bottom: 20px;
-    border-bottom: 3px solid gray;
-}
-
-#div-r-referal{
-    width: 18vw;
-    height:max-content;
-    margin-bottom: 20px;
-    border-bottom: 3px solid gray;
-}
-
-.container-left{
+/*estilos dos componentes a esquerda da página
+----------------------------------------------*/
+.container-left {
     max-width: 40vw;
     flex-wrap: wrap;
     margin-right: 30px;
 }
 
-.container-right{
-    max-width: 20vw;
-    flex-wrap: wrap;
+.div-left {
+    width: 40vw;
+    height:max-content;
+    margin-bottom: 20px;
 }
 
-p{
-    width: 40vw; 
-    margin: 0;
+#div-l {
+    width: 40vw;
+    height:max-content;
+    margin-bottom: 20px;
+    border-bottom: 3px solid gray;
 }
 
-h2{
-    margin: 0;
-    color: blue;
+#div-r-referal {
+    width: 18vw;
+    height:max-content;
+    margin-bottom: 20px;
+    border-bottom: 3px solid gray;
 }
 
-h3{
-    margin: 0;   
-}
 
-h4{
-    margin: 0;   
-}
-
-legend{
-    position: absolute; 
-    left: 50%;
-    bottom: 0;
-    transform: translate(-50%, 50%);
-    background: white;
-    padding: 0 5px;   
-}
-
-ul{
-    margin: 0;   
-}
